@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap");html{font-size:62.5%}html.scroll-prevent{position:fixed;z-index:-1;width:100%;height:100%}body{text-rendering:optimizeSpeed;width:100%;font-family:"ヒラギノ角ゴ Pro W3","ヒラギノ角ゴ W3","メイリオ","ＭＳ Ｐゴシック",system-ui,sans-serif;font-weight:normal;color:#3e3e3e;line-height:1.8em;letter-spacing:0.03em;font-size:1.4em;background-color:#fff}body.new{text-rendering:optimizeLegibility;width:100%;font-family:"ヒラギノ角ゴ Pro W3","ヒラギノ角ゴ W3","メイリオ","ＭＳ Ｐゴシック",system-ui,sans-serif;font-weight:normal;color:#3e3e3e;line-height:1.8em;letter-spacing:0.03em;font-size:1.4em;background-color:#fff}body.new #page{line-height:1.8em;position:relative}body.new a{text-decoration:none;color:#000}body.new img{vertical-align:bottom}@media screen and (max-width: 1024px){html,body,body.new,#page{min-width:100% !important}}@media screen and (max-width: 768px){body,body.new{font-size:1.3em;line-height:1.8em}}input,textarea{font-family:"ヒラギノ角ゴ Pro W3","ヒラギノ角ゴ W3","メイリオ","ＭＳ Ｐゴシック",system-ui,sans-serif}*,*::before,*::after{box-sizing:border-box}*{-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;font-smoothing:antialiased}a{text-decoration:none;color:#3e3e3e}img{vertical-align:bottom}@media print{* html body{zoom:0.7}body{background-color:#fff;font-size:12px}}html{overflow-y:scroll;font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,main,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;border:0;outline:0}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}object,embed{border:0;vertical-align:bottom;outline:none}[hidden],template{display:none}a{margin:0;padding:0;border:0;background:transparent;outline:0}a:active,a:hover{outline:0}a img{border:none;text-decoration:none;outline:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul li{list-style:none}ul,ol{list-style-position:inside}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}caption,th{text-align:left}img{border:none;vertical-align:bottom}svg:not(:root){overflow:hidden}hr{display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}input,select{vertical-align:middle}button{overflow:visible}button,select{text-transform:none}button,html input[type='button'],input[type='reset'],input[type='submit']{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}label{cursor:pointer}input{line-height:normal}input[type='checkbox'],input[type='radio']{box-sizing:border-box;padding:0}input[type='number']::-webkit-inner-spin-button,input[type='number']::-webkit-outer-spin-button{height:auto}input[type='search']{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type='search']::-webkit-search-cancel-button,input[type='search']::-webkit-search-decoration{-webkit-appearance:none}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}
+legend{border:0;padding:0}
+textarea{overflow:auto}
+optgroup{font-weight:bold}
+button{-webkit-appearance:none;-moz-appearance:none;appearance:none;padding:0;border:none;border-radius:0;outline:none;cursor:pointer;background:none}
+main#concept .mv-section .mv-image{background:url(/images/cource16.jpg) no-repeat center/cover}
+main#concept .concept-intro{width:100%;background:url(/img/concept/intro_bg.jpg) no-repeat top center/cover;padding:100px 0;text-align:center}
+main#concept .concept-intro 
+h3{font-family:"Source Sans Pro", sans-serif;font-weight:300;font-display:swap;font-size:35px;font-size:3.5rem;line-height:1.5em;letter-spacing:0.07em;color:#000;margin-bottom:30px}
+main#concept .concept-intro 
+p{font-size:18px;font-size:1.8rem;letter-spacing:0.05em;color:#000}
+main#concept .concept-main{background:url(/img/concept/concept_bg.png) no-repeat bottom center/100% auto #fafafa;padding:100px 0 130px;margin-bottom:100px}
+main#concept .concept-main .concept-inner{text-align:center}
+main#concept .concept-main .concept-inner h4{font-family:"Source Sans Pro", sans-serif;font-weight:300;font-display:swap;font-size:30px;font-size:3rem;letter-spacing:0.05em;color:#000;margin-bottom:20px;line-height:1.3em}
+main#concept .concept-main .concept-inner .sub{font-size:15px;font-size:1.5rem;letter-spacing:0.05em;color:#000;margin-bottom:50px}
+main#concept .concept-main .concept-inner .text{line-height:2.5em}
+main#concept .concept-main .concept-inner .text:nth-of-type(n+2){margin-top:20px}
+main#concept .concept-main .concept-inner:nth-of-type(n+2){margin-top:120px}@media screen and (max-width: 768px){main#concept{padding:70px 0}
+	
+	main#concept .mv-section .mv-image{background:url(/images/cource16.jpg) no-repeat center/cover}
+	main#concept .concept-intro{padding:50px 0}
+	main#concept .concept-intro h3{font-size:6.5vw;margin-bottom:16px}
+	main#concept .concept-intro p{font-size:3.5vw}
+	main#concept .concept-main{padding:80px 0;margin-bottom:70px}
+	main#concept .concept-main .concept-inner{width:88vw;margin:0 auto}
+	main#concept .concept-main .concept-inner 
+	h4{font-size:23px;font-size:2.3rem;margin-bottom:15px;line-height:1.4em}
+	main#concept .concept-main .concept-inner .sub{font-size:13px;font-size:1.3rem;margin-bottom:30px}
+	main#concept .concept-main .concept-inner .text{text-align:left;line-height:2.2em}
+	main#concept .concept-main .concept-inner:nth-of-type(n+2){margin-top:80px}
+

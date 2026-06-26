@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+AuthUserFile "/home/xs755889/xs755889.xsrv.jp/htpasswd/.htpasswd"
+AuthName "Member Site"
+AuthType BASIC
+require valid-user

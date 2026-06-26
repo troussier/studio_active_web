@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+html.scroll-prevent{position:fixed;z-index:-1;width:100%;height:100%}
+body{text-rendering:optimizeSpeed;width:100%;font-family:"ヒラギノ角ゴ Pro W3","ヒラギノ角ゴ W3","メイリオ","ＭＳ Ｐゴシック",system-ui,sans-serif;font-weight:normal;color:#3e3e3e;line-height:1.8em;letter-spacing:0.03em;font-size:1.4em;background-color:#fff}
+body.new{text-rendering:optimizeLegibility;width:100%;font-family:"ヒラギノ角ゴ Pro W3","ヒラギノ角ゴ W3","メイリオ","ＭＳ Ｐゴシック",system-ui,sans-serif;font-weight:normal;color:#3e3e3e;line-height:1.8em;letter-spacing:0.03em;font-size:1.4em;background-color:#fff}
+body.new #page{line-height:1.8em;position:relative}
+body.new a{text-decoration:none;color:#000}
+body.new img{vertical-align:bottom}@media screen and (max-width: 1024px){html,body,body.new,#page{min-width:100% !important}}@media screen and (max-width: 768px){body,body.new{font-size:1.3em;line-height:1.8em}}
+input,textarea{font-family:"ヒラギノ角ゴ Pro W3","ヒラギノ角ゴ W3","メイリオ","ＭＳ Ｐゴシック",system-ui,sans-serif}*,*::before,*::after{box-sizing:border-box}*{-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;font-smoothing:antialiased}a{text-decoration:none;color:#3e3e3e}
+img{vertical-align:bottom}@media print{* html body{zoom:0.7}body{background-color:#fff;font-size:12px}}html{overflow-y:scroll;font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,main,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;border:0;outline:0}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}
+object,embed{border:0;vertical-align:bottom;outline:none}[hidden],template{display:none}a{margin:0;padding:0;border:0;background:transparent;outline:0}a:active,a:hover{outline:0}a img{border:none;text-decoration:none;outline:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+ul li{list-style:none}
+ul,ol{list-style-position:inside}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+small{font-size:80%}
+
+sub,sup
+   {font-size:75%;
+	line-height:0;
+	position:relative;
+	vertical-align:baseline}
+
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+table{border-collapse:collapse;border-spacing:0}
+td,th{padding:0}
+caption,th{text-align:left}
+img{border:none;vertical-align:bottom}
+svg:not(:root){overflow:hidden}
+hr{display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0}
+
+pre{overflow:auto}
+code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}input,select{vertical-align:middle}button{overflow:visible}button,select{text-transform:none}button,html input[type='button'],input[type='reset'],input[type='submit']{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}label{cursor:pointer}input{line-height:normal}input[type='checkbox'],input[type='radio']{box-sizing:border-box;padding:0}input[type='number']::-webkit-inner-spin-button,input[type='number']::-webkit-outer-spin-button{height:auto}input[type='search']{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration{-webkit-appearance:none}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}
+legend{border:0;padding:0}
+textarea{overflow:auto}
+optgroup{font-weight:bold}
+button{-webkit-appearance:none;-moz-appearance:none;appearance:none;padding:0;border:none;border-radius:0;outline:none;cursor:pointer;background:none}
+
+/*===============================================
+price.html　バー(PC)
+===============================================*/
+main#price .mv-section .mv-image{background:url(/images/cource14.jpg) no-repeat center/cover}
+main#price #beginner .sec-title{background:url(/images/cource16.jpg) #8FBEBB no-repeat left/auto 100%}
+main#price #plan .sec-title{background:url(/images/cource16.jpg) #8FBEBB no-repeat left/auto 100%}
+main#price #beginner p{margin-bottom:40px}
+main#price #beginner .campaign-bnr{width:65vw;margin:40px auto 0}
+main#price #beginner .campaign-bnr 
+img{width:100%;height:auto}
+main#price #plan .intro{margin-top:40px}
+main#price .sec-pricePlan{margin-top:40px}
+main#price .sec-pricePlan-list{display:grid;grid-template-columns:repeat(auto-fill, minmax(32%, 1fr));gap:44px 32px;margin-bottom:200px}
+main#price .sec-pricePlan-item{display:flex;flex-direction:column}
+main#price .sec-pricePlan-item-inner{margin-bottom:20px}
+main#price .sec-pricePlan-item-read{font-size:11.5px;color:#eb6d98;text-align:center;display:block;margin:20px 0 8px;line-height:1.4em;font-weight:bold}
+main#price .sec-pricePlan-item-title{font-size:16px;font-weight:bold;text-align:center;margin-bottom:10px;line-height:1em}
+main#price .sec-pricePlan-item-price{font-size:12px;letter-spacing:0.1em;text-align:center}
+main#price .sec-pricePlan-item-price>span{font-size:16px;letter-spacing:0.1em;padding:0 2px;font-weight:600}
+main#price .sec-pricePlan-item-division{font-size:12px;text-align:center;letter-spacing:0.1em}
+main#price .sec-pricePlan-item-division>span{font-size:16px;color:#eb6d98;padding:0 2px;font-weight:600}
+main#price .sec-pricePlan-btn{width:100%;max-width:260px;border:1px solid #000000;margin:auto auto 0}
+main#price .sec-pricePlan-btn>a{display:block;padding:16px 0;font-size:12px;text-align:center;line-height:1;transition:all 0.3s}
+main#price .sec-pricePlan-btn>a:hover{cursor:pointer;color:#ffffff;background-color:#000000}
+main#price .plan-list{margin:120px 0;display:grid;grid-template-columns:1fr;gap:80px}
+main#price .plan-item{display:grid;grid-template-columns:500px 1fr;gap:50px;padding-bottom:50px}
+main#price .plan-item:not(:last-child){border-bottom:1px solid #f1f1f1}
+main#price .plan-read{color:#eb6d98;font-size:13px;line-height:1.6em;margin-bottom:12px;font-weight:bold}
+main#price .plan-titleContainer{display:flex;justify-content:space-between;margin-bottom:32px}
+main#price .plan-title{font-size:20px;letter-spacing:10%;font-weight:bold}
+main#price .plan-price{font-size:12px;letter-spacing:10%;text-align:right}
+main#price .plan-price>span{font-size:18px;font-weight:600;letter-spacing:10%;padding:0 2px}
+main#price .plan-price-division{font-size:12px;letter-spacing:10%;text-align:right;margin-top:4px}
+main#price .plan-price-division>span{font-size:18px;font-weight:600;letter-spacing:10%;color:#eb6d98;margin-left:6px;padding:0 2px}
+main#price .plan-service-title{width:100%;border:1px solid #000000;padding:16px 0 16px 16px;line-height:1;margin-bottom:20px;font-size:12px}
+main#price .plan-service-item{margin-bottom:10px}
+main#price .plan-note{margin-top:20px;font-size:12px}
+main#price .plan-title-note{font-size:12px;line-height:1.6em;margin-bottom:32px}
+main#price .price-other{width:80vw;max-width:1024px;margin:0 auto;margin-bottom:160px;display:-webkit-flex;display:flex;-webkit-justify-content:space-around;justify-content:space-around}
+main#price .price-other .price-counseling{width:100%;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column}
+main#price .price-other .price-counseling 
+h3{font-size:30px;font-size:3rem;font-family:"Source Sans Pro", sans-serif;font-weight:300;font-display:swap;color:#000;text-align:center;margin-bottom:35px}
+main#price .price-other .price-counseling 
+p{text-align:center;margin-bottom:20px}
+main#price .price-other .price-counseling .btn{margin-top:auto;text-align:center}
+main#price .price-other .price-counseling .price-inner{display:flex;justify-content:space-between}
+main#price .acc-wrap .accshow p{margin-top:20px}@media screen and (max-width: 768px){main#price{padding:70px 0}
+	
+/*===============================================
+price.html　バー(スマホ)
+===============================================*/	
+	main#price .mv-section .plan-img{background:url(/images/cource14.jpg) no-repeat center/cover}
+	main#price #beginner .sec-title{background:#8FBEBB no-repeat center/cover}
+	main#price #plan .sec-title{background:#8FBEBB no-repeat center/cover}
+	main#price #beginner p{margin-bottom:30px}
+	main#price #beginner .campaign-bnr{width:88vw}
+	main#price #plan .intro{margin-top:40px}
+	main#price .planlist{margin:0 80px}
+	main#price .sec-pricePlan-list{gap:40px 17px;margin-bottom:120px}
+	main#price .sec-pricePlan-item-read{font-size:11.5px}
+	main#price .sec-pricePlan-item-read>span{display:block}
+	main#price .sec-pricePlan-item-title{font-size:14px;margin-bottom:16px}
+	main#price .sec-pricePlan-item-price{font-size:12px}
+	main#price .sec-pricePlan-item-price>span{font-size:14px}
+	main#price .sec-pricePlan-item-division{font-size:12px}
+	main#price .sec-pricePlan-item-division>span{font-size:14px}
+	main#price .sec-pricePlan-btn>a{padding:14px 0;font-size:10px}
+	main#price .plan-list{margin:60px 0 120px}
+	main#price .plan-item{display:grid;grid-template-columns:1fr;gap:24px}
+	main#price .plan-read{color:#eb6d98;font-size:12px}
+	main#price .plan-titleContainer{display:block;margin-bottom:16px}
+	main#price .plan-title{font-size:16px;margin-bottom:10px}
+	main#price .plan-price>span{font-size:14px}
+	main#price .plan-price-division{margin-top:4px}
+	main#price .plan-price-division>span{font-size:14px;margin-left:4px}
+	main#price .plan-service-title{padding:14px 0 14px 14px;margin-bottom:20px;font-size:12px}
+	main#price .plan-service-item{margin-bottom:6px}
+	main#price .plan-note{margin-top:14px;font-size:10px}
+	main#price .plan-title-note{font-size:10px;margin-bottom:20px}
+	main#price .studio-other{width:88vw;display:block}
+	main#price .studio-other .studio-counseling{width:100% !important;display:block}
+	main#price .studio-other .studio-counseling 
+	h3{font-size:24px;font-size:2.4rem;margin-bottom:25px}
+	main#price .studio-other .studio-counseling 
+	p{margin-bottom:25px}
+	main#price .studio-other .studio-counseling .btn{text-align:center}
+	main#price .studio-other .studio-trial{margin-bottom:60px}
+	main#price .studio-other .studio-inner{flex-direction:column}
+	main#price .acc-wrap .accshow 
+	p{margin-top:20px}

@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*===============================================
+voice.html　バー(PC)
+===============================================*/
+body.new .line-list{display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;-webkit-justify-content:space-between;justify-content:space-between;}
+body.new .line-list dt,
+body.new .line-list dd{padding:25px 0;border-bottom:1px solid #ddd}
+body.new .line-list dt{width:30%;font-weight:bold;text-align:center;}
+body.new .line-list dd{padding-left:20px;width:70%}
+body.new .line-list dd p:nth-of-type(n+2){margin-top:10px}
+body.new .line-list dt p{margin:20px}
+main#price .mv-section .mv-image{background:url("https://www.studio-active.com/images/cource-20.jpg") no-repeat center/cover}
+main#price #beginner .sec-title{background:#8FBEBB no-repeat left/auto 100%}
+main#price #plan .sec-title{background:#8FBEBB no-repeat left/auto 100%}
+main#price #beginner p{margin-bottom:40px}
+main#price #beginner .campaign-bnr{width:65vw;margin:40px auto 0}
+main#price #beginner .campaign-bnr 
+img{width:100%;height:auto}
+main#price #plan .intro{margin-top:40px}
+main#price .sec-pricePlan{margin-top:40px}
+main#price .sec-pricePlan-list{display:grid;grid-template-columns:repeat(auto-fill, minmax(32%, 1fr));gap:44px 32px;margin-bottom:200px}
+main#price .sec-pricePlan-item{display:flex;flex-direction:column}
+main#price .sec-pricePlan-item-inner{margin-bottom:20px}
+main#price .sec-pricePlan-item-read{font-size:11.5px;color:#eb6d98;text-align:center;display:block;margin:20px 0 8px;line-height:1.4em;font-weight:bold}
+main#price .sec-pricePlan-item-title{font-size:16px;font-weight:bold;text-align:center;margin-bottom:10px;line-height:1em}
+main#price .sec-pricePlan-item-price{font-size:12px;letter-spacing:0.1em;text-align:center}
+main#price .sec-pricePlan-item-price>span{font-size:16px;letter-spacing:0.1em;padding:0 2px;font-weight:600}
+main#price .sec-pricePlan-item-division{font-size:12px;text-align:center;letter-spacing:0.1em}
+main#price .sec-pricePlan-item-division>span{font-size:16px;color:#eb6d98;padding:0 2px;font-weight:600}
+main#price .sec-pricePlan-btn{width:100%;max-width:260px;border:1px solid #000000;margin:auto auto 0}
+main#price .sec-pricePlan-btn>a{display:block;padding:16px 0;font-size:12px;text-align:center;line-height:1;transition:all 0.3s}
+main#price .sec-pricePlan-btn>a:hover{cursor:pointer;color:#ffffff;background-color:#000000}
+main#price .plan-list{margin:120px 0;display:grid;grid-template-columns:1fr;gap:80px}
+main#price .plan-item{display:grid;grid-template-columns:500px 1fr;gap:50px;padding-bottom:50px}
+main#price .plan-item:not(:last-child){border-bottom:1px solid #f1f1f1}
+main#price .plan-read{color:#eb6d98;font-size:13px;line-height:1.6em;margin-bottom:12px;font-weight:bold}
+main#price .plan-titleContainer{display:flex;justify-content:space-between;margin-bottom:32px}
+main#price .plan-title{font-size:20px;letter-spacing:10%;font-weight:bold}
+main#price .plan-price{font-size:12px;letter-spacing:10%;text-align:right}
+main#price .plan-price>span{font-size:18px;font-weight:600;letter-spacing:10%;padding:0 2px}
+main#price .plan-price-division{font-size:12px;letter-spacing:10%;text-align:right;margin-top:4px}
+main#price .plan-price-division>span{font-size:18px;font-weight:600;letter-spacing:10%;color:#eb6d98;margin-left:6px;padding:0 2px}
+main#price .plan-service-title{width:100%;border:1px solid #000000;padding:16px 0 16px 16px;line-height:1;margin-bottom:20px;font-size:12px;line-height:1.6em;}
+main#price .plan-service-item{margin-bottom:10px}
+main#price .plan-note{margin-top:20px;font-size:12px}
+main#price .plan-title-note{font-size:12px;line-height:1.6em;margin-bottom:32px}
+main#price .price-other{width:80vw;max-width:1024px;margin:0 auto;margin-bottom:160px;display:-webkit-flex;display:flex;-webkit-justify-content:space-around;justify-content:space-around}
+main#price .price-other .price-counseling{width:100%;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column}
+main#price .price-other .price-counseling 
+h3{font-size:30px;font-size:3rem;font-family:"Source Sans Pro", sans-serif;font-weight:300;font-display:swap;color:#000;text-align:center;margin-bottom:35px}
+main#price .price-other .price-counseling 
+p{text-align:center;margin-bottom:20px}
+main#price .price-other .price-counseling .btn{margin-top:auto;text-align:center}
+main#price .price-other .price-counseling .price-inner{display:flex;justify-content:space-between}
+main#price .acc-wrap .accshow p{margin-top:20px}
+	
+/*===============================================
+voice.html　バー(スマホ)
+===============================================*/
+@media screen and (max-width: 768px){main#price{padding:70px 0}	
+	main#price .mv-section .plan-img{background:url("https://www.studio-active.com/images/cource-20.jpg") no-repeat center/cover}
+	main#price #beginner .sec-title{background:#8FBEBB no-repeat center/cover}
+	main#price #plan .sec-title{background:#8FBEBB no-repeat center/cover}
+	main#price #beginner p{margin-bottom:30px}
+	main#price #beginner .campaign-bnr{width:88vw}
+	main#price #plan .intro{margin-top:40px}
+	main#price .planlist{margin:0 80px}
+	main#price .sec-pricePlan-list{gap:40px 17px;margin-bottom:120px}
+	main#price .sec-pricePlan-item-read{font-size:11.5px}
+	main#price .sec-pricePlan-item-read>span{display:block}
+	main#price .sec-pricePlan-item-title{font-size:14px;margin-bottom:16px}
+	main#price .sec-pricePlan-item-price{font-size:12px}
+	main#price .sec-pricePlan-item-price>span{font-size:14px}
+	main#price .sec-pricePlan-item-division{font-size:12px}
+	main#price .sec-pricePlan-item-division>span{font-size:14px}
+	main#price .sec-pricePlan-btn>a{padding:14px 0;font-size:10px}
+	main#price .plan-list{margin:60px 0 120px}
+	main#price .plan-item{display:grid;grid-template-columns:1fr;gap:24px}
+	main#price .plan-read{color:#eb6d98;font-size:12px}
+	main#price .plan-titleContainer{display:block;margin-bottom:16px}
+	main#price .plan-title{font-size:16px;margin-bottom:10px}
+	main#price .plan-price>span{font-size:14px}
+	main#price .plan-price-division{margin-top:4px}
+	main#price .plan-price-division>span{font-size:14px;margin-left:4px}
+	main#price .plan-service-title{padding:14px 0 14px 14px;margin-bottom:20px;font-size:12px;line-height:1.6em;}
+	main#price .plan-service-item{margin-bottom:6px}
+	main#price .plan-note{margin-top:14px;font-size:10px}
+	main#price .plan-title-note{font-size:10px;margin-bottom:20px}
+	main#price .studio-other{width:88vw;display:block}
+	main#price .studio-other .studio-counseling{width:100% !important;display:block}
+	main#price .studio-other .studio-counseling 
+	h3{font-size:24px;font-size:2.4rem;margin-bottom:25px}
+	main#price .studio-other .studio-counseling 
+	p{margin-bottom:25px}
+	main#price .studio-other .studio-counseling .btn{text-align:center}
+	main#price .studio-other .studio-trial{margin-bottom:60px}
+	main#price .studio-other .studio-inner{flex-direction:column}
+	main#price .acc-wrap .accshow 
+	p{margin-top:20px}}

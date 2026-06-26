@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css-test?family=Source+Sans+Pro:300,400,600&display=swap");
+html{font-size:62.5%}
+html.scroll-prevent{position:fixed;z-index:-1;width:100%;height:100%}
+body.new{text-rendering:optimizeLegibility;width:100%;font-family:"ヒラギノ角ゴ Pro W3","ヒラギノ角ゴ W3","メイリオ","ＭＳ Ｐゴシック",system-ui,sans-serif;font-weight:normal;color:#3e3e3e;line-height:1.8em;letter-spacing:0.03em;font-size:1.4em;background-color:#fff;}
+body.new #page{line-height:1.8em;position:relative}
+body.new a{text-decoration:none;}
+body.new img{vertical-align:bottom}
+
+
+/* -----------------------------------------------------------
+	プログラムページの画像影響
+----------------------------------------------------------- */
+img { max-width:100%;}
+
+@media screen and (max-width: 1024px){html,body,
+body.new,#page{min-width:100% !important}}@media screen and (max-width: 768px){body,
+body.new{font-size:1.3em;line-height:1.8em}}input,textarea{font-family:"ヒラギノ角ゴ Pro W3","ヒラギノ角ゴ W3","メイリオ","ＭＳ Ｐゴシック",system-ui,sans-serif}*,*::before,*::after{box-sizing:border-box}*{-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;font-smoothing:antialiased}a{text-decoration:none;color:#3e3e3e}
+img{vertical-align:bottom}
+label{cursor:pointer}
+button{-webkit-appearance:none;-moz-appearance:none;appearance:none;padding:0;border:none;border-radius:0;outline:none;cursor:pointer;background:none}
+
+body.new .sp-item{display:none !important}
+body.new .detail{text-align:center;}
+body.new .detail p{text-align:left;}
+body.new .btn{text-align:initial}
+body.new .btn a{text-align:center;display:inline-block;padding:0 50px;height:54px;line-height:52px;text-align:center;transition:all 0.3s;color:#000;border:1px solid #000;transition:all 0.5s cubic-bezier(0.19, 1, 0.22, 1)}
+body.new .btn a:hover{background-color:#000;color:#fff}
+body.new .btn.red a{border:none;background-color:#eb6d98;line-height:54px;color:#fff}
+body.new .btn.red a:hover{background-color:#cc3366}
+
+
+/* -----------------------------------------------------------
+	プライスページのラインに影響
+----------------------------------------------------------- */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,main,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;border:0;outline:0}
+
+
+
+/* -----------------------------------------------------------
+	全ページ
+----------------------------------------------------------- */
+body.new .mv-section{display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between;margin-bottom:100px}
+body.new .mv-section .mv-inner{order:1;width:45vw;padding:6% 6% 0;display:-webkit-flex;display:flex;-webkit-justify-content:center;justify-content:center;-webkit-flex-direction:column;flex-direction:column}
+body.new .mv-section .title-wrap{margin-bottom:35px}
+body.new .mv-section .title-wrap h2{font-size:50px;font-size:5rem;font-family:"Source Sans Pro", sans-serif;font-weight:300;font-display:swap;margin-bottom:20px;color:#000}
+body.new .mv-section .title-wrap .sub{font-size:15px;font-size:1.5rem;color:#000}
+body.new .mv-section .copy{line-height:2em}
+body.new .mv-section .copy>div{transition:background-color 0.3s}
+body.new .mv-section .copy>div:hover{background-color:#d7d7d7}
+body.new .mv-section .copy>div:not(:last-child){margin-bottom:10px}
+body.new .mv-section .copy>div>a{
+position:relative;display:block;padding:14px;text-decoration:underline !important}
+body.new .mv-section .copy>div>a::after{content:"";
+position:absolute;top:50%;right:8%;width:6px;height:6px;border-right:1px solid #000000;border-bottom:1px solid #000000;transform:translateY(-50%) rotate(45deg)}
+body.new .mv-section .mv-image{order:2;width:55vw;height:550px;background-color:#999;
+position:relative}
+body.new .mv-section .mv-image:before{content:"";
+position:absolute;top:0;right:0;width:55vw;height:550px;background:-moz-linear-gradient(to bottom, rgba(0,0,0,0.5), transparent 25%);background:-webkit-linear-gradient(to bottom, rgba(0,0,0,0.5), transparent 25%);background:linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(0,0,0,0) 25%)}
+body.new .sec-title{font-size:20px;font-size:2rem;color:#fff;text-align:center;height:140px;line-height:140px;background-color:#8FBEBB;margin-bottom:50px}
+body.new .content-inner{width:73vw;margin:0 auto 100px}
+body.new .bnr-wrap{width:73vw;margin:0 auto 100px}
+
+
+@media screen and (max-width: 1024px){
+body.new .pc-item{display:none !important}
+body.new .sp-item{display:block !important}
+body.new .btn a{height:50px;line-height:48px;padding:0 40px}
+body.new .btn-wrap{display:block;width:88vw;margin:0 auto}
+body.new .btn-wrap .btn a{width:100%}
+body.new .btn-wrap .btn:nth-of-type(n+2){margin:15px 0 0}
+body.new .notes-list{font-size:11px;font-size:1.1rem}
+body.new .line-list{display:block;}
+body.new .line-list dt{width:100%;border-bottom:none;padding:20px 0 0}
+body.new .line-list dd{width:100%;padding:10px 0 20px}
+body.new .mv-section{display:block;margin-bottom:40px}
+body.new .mv-section .mv-inner{width:88vw;padding:0;display:block;margin:0 auto;}
+body.new .mv-section .title-wrap{width:88vw;margin:0 auto;z-index:3;}
+body.new .mv-section .title-wrap h2{font-size:55px;font-size:5.5rem;margin-bottom:10px;color:#fff;}
+body.new .mv-section .title-wrap .sub{font-size:12px;font-size:1.2rem;color:#fff;}
+	
+	
+/*メインビジュアル背景*/	
+body.new .mv-section .mv-image{width:100%;height:500px;margin-bottom:30px;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-justify-content:center;justify-content:center;z-index:1;}
+body.new .mv-section .mv-image:before{top:0;right:0;width:100%;height:500px;background:-moz-linear-gradient(to right, rgba(0,0,0,0.5), transparent);background:-webkit-linear-gradient(to right, rgba(0,0,0,0.5), transparent);background:linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0));z-index:2}
+	
+body.new .mv-section .copy>div{width:80%;margin:0 auto}
+body.new .mv-section .copy>div:hover{background-color:transparent}
+body.new .sec-title{font-size:16px;font-size:1.6rem;height:100px;line-height:100px;margin-bottom:40px}
+body.new .content-inner{width:88vw;margin:0 auto 60px}
+body.new .bnr-wrap{width:100%;margin:0 auto 60px}}
+	
+@media screen and (max-width: 768px)
+{
+body.new .pc-item{display:none !important}
+body.new .sp-item{display:block !important}
+body.new .btn a{height:50px;line-height:48px;padding:0 40px}
+body.new .btn-wrap{display:block;width:88vw;margin:0 auto}
+body.new .btn-wrap .btn a{width:100%}
+body.new .btn-wrap .btn:nth-of-type(n+2){margin:15px 0 0}
+body.new .notes-list{font-size:11px;font-size:1.1rem}
+body.new .line-list{display:block;}
+body.new .line-list dt{width:100%;border-bottom:none;padding:20px 0 0}
+body.new .line-list dd{width:100%;padding:10px 0 20px}
+body.new .mv-section{display:block;margin-bottom:40px}
+body.new .mv-section .mv-inner{width:88vw;padding:0;display:block;margin:0 auto}
+body.new .mv-section .title-wrap{width:88vw;margin:0 auto;z-index:3}
+body.new .mv-section .title-wrap h2{font-size:35px;font-size:3.5rem;ｓcolor:#fff}
+body.new .mv-section .title-wrap .sub{font-size:12px;font-size:1.2rem;color:#fff}
+body.new .mv-section .mv-image{width:100%;height:270px;margin-bottom:30px;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-justify-content:center;justify-content:center;z-index:1}
+body.new .mv-section .mv-image:before{top:0;right:0;width:100%;height:270px;background:-moz-linear-gradient(to right, rgba(0,0,0,0.5), transparent);background:-webkit-linear-gradient(to right, rgba(0,0,0,0.5), transparent);background:linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0));z-index:2}
+body.new .mv-section .copy>div{width:80%;margin:0 auto}
+body.new .mv-section .copy>div:hover{background-color:transparent}
+body.new .sec-title{font-size:16px;font-size:1.6rem;height:100px;line-height:100px;margin-bottom:40px}
+body.new .content-inner{width:88vw;margin:0 auto 60px}
+body.new .bnr-wrap{width:100%;margin:0 auto 60px}}
