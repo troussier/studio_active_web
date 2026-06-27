@@ -85,17 +85,28 @@ main#home .section-about {
     width: 100%;
     margin-top: 100px;
     padding: 120px 0;
-    background: url('../images/slider-1.gif') no-repeat left center/auto 100%;
     background-color: #a9d6e2;
 }
 main#home .section-about .about-inner {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
     width: 88vw;
     margin: 0 auto;
     position: relative;
 }
+.about-image {
+    max-width: 674px;
+    flex: 1 1 0;
+    min-width: 0;
+}
+.about-image img {
+    width: 100%;
+    height: auto;
+}
 main#home .section-about .about-inner .about-intro {
-    width: 48%;
-    margin: 0 0 0 auto;
+    flex: 0 0 370px;
+    width: 370px;
 }
 main#home .section-about .about-inner .about-intro h1 {
     font-size: 40px;
@@ -312,7 +323,6 @@ body.new .program_menu a:hover {
         width: 100%;
         margin-top: 100px;
         padding: 120px 0;
-        background: url('../images/slider-2.gif') no-repeat left center/auto 100%;
         background-color: #a9d6e2;
     }
     main#home .section-about .about-inner {
@@ -430,11 +440,19 @@ body.new .program_menu a:hover {
         }
         main#home .section-about {
             margin-top: 0;
-            padding: 100% 0 20px;
-            background: url('../images/top-sp.gif') no-repeat top center/contain;
+            padding: 180px 0 20px;
             background-color: #a9d6e2;
         }
+        main#home .section-about .about-inner {
+            flex-direction: column;
+            gap: 40px;
+        }
+        .about-image {
+            max-width: 80%;
+            margin: 0 auto;
+        }
         main#home .section-about .about-inner .about-intro {
+            flex: 0 0 auto;
             width: 100%;
             margin: 0 auto;
         }
